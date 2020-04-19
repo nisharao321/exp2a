@@ -21,8 +21,7 @@ Determination of  relative humidity of a given location using whirling hygromete
 Sr No | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Manish Gupta | Student | Mining Engineering | National Institute of Technology Karnataka, Surathkal | guptamanish870@gmail.com
-2 | Prince Kumar Singh | Student | Mining Engineering | National Institute of Technology Karnataka, Surathkal |
-prince96611@gmail.com
+2 | Prince Kumar Singh | Student | Mining Engineering | National Institute of Technology Karnataka, Surathkal |prince96611@gmail.com
 3 | Rishitesh Prajapati | Student | Mining Engineering| National Institute of Technology Karnataka, Surathkal |rishi19420000@gmail.com
 4 | Harish Kumar Biradar | Student | Mining Engineering | National Institute of Technology Karnataka, Surathkal |biradarhareesh@nitk.edu.in
 5 | Nisha | Staff | | |raonisha46@gmail.com
