@@ -4,7 +4,7 @@
 
 <b>Discipline | <b>Engineering
 :--|:--|
-<b> Lab | <b>  Mine Environmental Engineering Lab
+<b> Lab | <b>  Mining Environmental Engineering Lab
 <b> Experiment|     <b> 2a. Relative Humidity of Whirling Hygrometer.
 
 <h5> About the Experiment : </h5>
