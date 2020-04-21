@@ -18,6 +18,5 @@
 6. Repeat the all above procedure for Place 2 and Place 3 also. Compare the result (Relative humidity) of all three places 1,2 and 3 with psychrometric chart. Click on the NEXT button at the bottom right corner to proceed to the next step.<br>
 <img src="images/w6.jpeg"><br>
 
-7.The final result of relative humidity by calculations and psychrometric chart for different places in the working gallery of a mine is given.<br>
+7. The final result of relative humidity by calculations and psychrometric chart for different places in the working gallery of a mine is given.<br>
 <img src="images/w7.jpeg"><br>
-
