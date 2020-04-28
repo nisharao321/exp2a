@@ -75,7 +75,7 @@ var a=[[24.5,30],
 
 var array1=[[3073.64,0.019,2444043,71059.31,0.0166,2633.87,4241.67,62.09],
 [2982.94,0.018,2445236,68134.24,0.0154,2448.07,4241.67,57.71],
-[3073.64,0.019,2444043,7105931,0.0166,2633.87,4241.67,62.09]];
+[3073.64,0.019,2444043,71059.31,0.0166,2633.87,4241.67,62.09]];
 
 var arr1=[[2982.94,0.018,2445236,68134.24,0.0154,2448.07,4241.67,57.71],
 [3073.64,0.019,2444043,71059.31,0.0166,2633.87,4241.67,62.09],
@@ -333,7 +333,7 @@ function magic()
             alert("Enter the value to proceed");
         }
         else {
-          if(document.getElementById('output-3').alue==ans_4)
+          if(document.getElementById('output-3').value==ans_4)
             right_condition('button-3','wrong-3','right-3','button-4');
           else{
             flag3+=1;
@@ -715,7 +715,7 @@ function magic()
             }
           }
           else {
-            if(document.getElementById('output1-3').alue==ans_44)
+            if(document.getElementById('output1-3').value==ans_44)
             {
               right_condition('button1-3','wrong1-3','right1-3','button1-4');
             }
@@ -878,7 +878,7 @@ function magic()
 
       else if (simsubscreennum==9)
       {
-      refreshh('wrong','wrong-1','wrong-2','wrong-3','wrong-4','wrong-5','wrong-6','wrong-7','right','right-1','right-2','right-3','right-4','right-5','right-6','right-7');
+      refreshh('wrong1','wrong1-1','wrong1-2','wrong1-3','wrong1-4','wrong1-5','wrong1-6','wrong1-7','right1','right1-1','right1-2','right1-3','right1-4','right1-5','right1-6','right1-7');
         document.getElementById('cc1').style.visibility="hidden";
 
         document.getElementById('m02-1').style.visibility="visible";
@@ -1064,7 +1064,7 @@ function magic()
           }
           else {
             if(document.getElementById('output11-2').value==ans_41)
-              right_condition('button11-2','wrong11-2','right11-2','butto11-3');
+              right_condition('button11-2','wrong11-2','right11-2','button11-3');
             else{
               flag2_41+=1;
               wrong_condition('output11-2','wrong11-2','right11-2');
@@ -1094,7 +1094,7 @@ function magic()
             }
           }
           else {
-            if(document.getElementById('output11-3').alue==ans_51)
+            if(document.getElementById('output11-3').value==ans_51)
               right_condition('button11-3','wrong11-3','right11-3','button11-4');
             else{
               flag3_51+=1;
@@ -1237,7 +1237,7 @@ function magic()
       }
       else if (simsubscreennum==13)
       {
-      refreshh('wrong','wrong-1','wrong-2','wrong-3','wrong-4','wrong-5','wrong-6','wrong-7','right','right-1','right-2','right-3','right-4','right-5','right-6','right-7');
+      refreshh('wrong11','wrong11-1','wrong11-2','wrong11-3','wrong11-4','wrong11-5','wrong11-6','wrong11-7','right11','right11-1','right11-2','right11-3','right11-4','right11-5','right11-6','right11-7');
         document.getElementById('sco3').style.visibility="hidden";
         document.getElementById('111-01p').style.visibility="hidden";
         document.getElementById('111-02p').style.visibility="hidden";
