@@ -7,7 +7,7 @@
 <img src="images/w2.jpeg"><br>
 
 3. Click on the hand holding the Whirling Hygrometer.<br>
-<img src="images/w3.jpg"><br>
+<img src="images/w3.png"><br>
 
 4. The dry bulb and wet bulb temperatures are depicted here. Then, click on the bottom right corner button to get into next step.<br>
 <img src="images/w4.jpg"><br>
