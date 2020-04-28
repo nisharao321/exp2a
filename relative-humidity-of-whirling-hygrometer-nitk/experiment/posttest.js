@@ -88,29 +88,29 @@
     {
         question: "At dew point",
         answers: {
-          a: "Dry bulb temperature= Wet bulb temperature.",
-          b: "Wet bulb temperature > Dry bulb temperature.",
-          c: "Relative humidity is 100%.",
-          d: "Both a & c."
+          a: "Dry bulb temperature = Wet bulb temperature",
+          b: "Wet bulb temperature > Dry bulb temperature",
+          c: "Relative humidity is 100%",
+          d: "Both a & c"
         },
         correctAnswer: "a"
     },
     {
-        question: "Wet bulb temperature is measure of ____.",
+        question: "Wet bulb temperature is measure of ____",
         answers: {
-          a: "Temperature of moisture present in air.",
-          b: "Evaporating capacity of air.",
+          a: "Temperature of moisture present in air",
+          b: "Evaporating capacity of air",
           c: "Normal temperature of air",
-          d: "Sensible heat content of air."
+          d: "Sensible heat content of air"
         },
         correctAnswer: "b"
     },
     {
         question: "Dry bulb temperature is measure of ",
         answers: {
-          a: "Evaporating capacity of air.",
-          b: "Sensible heat content of air.",
-          c: "Both a & b.",
+          a: "Evaporating capacity of air",
+          b: "Sensible heat content of air",
+          c: "Both a & b",
           d: "Latent heat content of air"
         },
         correctAnswer: "b"
@@ -118,30 +118,30 @@
     {
         question: "Higher the relative humidity, ",
         answers: {
-          a: "Higher the relative humidity, ",
-          b: "Higher is the value of wet bulb temperature. ",
-          c: "Wet bulb temperature is greater than dry bulb temperature. ",
-          d: "None of these. "
+          a: "Lower is the value of wet bulb temperature",
+          b: "Higher is the value of wet bulb temperature",
+          c: "Wet bulb temperature is greater than dry bulb temperature",
+          d: "None of these"
         },
         correctAnswer: "b"
     },
     {
-        question: "Which of the following statement is incorrect?.  ",
+        question: "Which of the following statement is incorrect?",
         answers: {
-          a: "Wet bulb temperature can be equal to dry bulb temperature. ",
-          b: "Wet bulb temperature can never be higher than dry bulb temperature.  ",
-          c: "Flow of heat at muslin cloth take place through radiation and convection both. ",
-          d: "Flow of heat at muslin cloth take place through convection only. "
+          a: "Wet bulb temperature can be equal to dry bulb temperature",
+          b: "Wet bulb temperature can never be higher than dry bulb temperature",
+          c: "Flow of heat at muslin cloth take place through radiation and convection both",
+          d: "Flow of heat at muslin cloth take place through convection only"
         },
         correctAnswer: "d"
     },
     {
         question: "Which of the following statement is correct? ",
         answers: {
-          a: "flow of heat from air to bulb with wet muslin cloth is slower than the rate of heat loss from the bulb with wet muslin due to evaporation.",
-          b: "At wet bulb temperature, flow of heat from air to bulb with wet muslin cloth is equal to the rate of heat loss from the bulb with wet muslin due to evaporation. ",
-          c: "flow of heat from air to bulb with wet muslin cloth is higher than the rate of heat loss from the bulb with wet muslin due to evaporation. ",
-          d: "Both a & b."
+          a: "Flow of heat from air to bulb with wet muslin cloth is slower than the rate of heat loss from the bulb with wet muslin due to evaporation",
+          b: "At wet bulb temperature, flow of heat from air to bulb with wet muslin cloth is equal to the rate of heat loss from the bulb with wet muslin due to evaporation",
+          c: "Flow of heat from air to bulb with wet muslin cloth is higher than the rate of heat loss from the bulb with wet muslin due to evaporation",
+          d: "Both a & b"
         },
         correctAnswer: "d"
     },
