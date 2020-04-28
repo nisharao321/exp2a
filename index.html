@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 
 <title>SOLVE</title>
- <link rel="stylesheet" href="css/relative.css" />
-        <script type="text/javascript" src="js/jquerymin.js"></script>
-        <script type="text/javascript" src="js/relative.js"></script>
+<link rel="stylesheet" href="css/relative.css" />
+<script type="text/javascript" src= "js/jquerymin.js"></script>
+<script type="text/javascript" src= "js/relative.js"></script>
 
 <script>
 var simsubscreennum=0;
@@ -65,7 +65,7 @@ var temp=0;
 <span  class="tooltiptext" style="text-align:justify;left:90px;top:6px;"><strong style="color:red;">Whirling Hygrometers:</strong> have a pair of  thermometers, one of them having its bulb covered with wet muslin cloth. Here dry and wet bulb thermometer are mounted side by side on bass frame fitted with a handle for whirling purpose.</span></span>
 
 <img id="" style="position: absolute; left: 80px; top: 170px; width:110px;height:350px;" title="" src="Images/human.png"/>
-<img id="" style="position: absolute; left: 280px; top: 350px; width:300px;height:150px;" title="table" src="Images/table.png"/>
+<img id="" style="position: absolute; left: 285px; top: 350px; width:270px;height:150px;" title="table" src="Images/table.png"/>
 <img id="" style="position: absolute; left: 360px; top: 285px; width:40px;height:80px;" title="Whirling Hygrometer" src="Images/2.11.png"/>
 <img id="" style="position: absolute; left: 450px; top: 335px; width:35px; height:35px;" title="Stop Watch" src="Images/swh1.png"/>
 <img id="" style="position: absolute; left: 467px; top: 342px;width:1.5px;" title="" src="Images/ndswh.png"/>
@@ -97,15 +97,16 @@ var temp=0;
 <p id="pumptext" class="steptext" style="font-family:verdana; font-size:14px;width:100px;">Attach rod to the hygrometer to rotate the whirling hygrometer at the speed of 200rpm for atleast 2 minutes and start the stopwatch simultaneously. </p>
 <img id="11-1" style="position: absolute; left: 200px; top: 255px; width:70px;height:190px;" title="whirling Hygrometer" src="Images/t1.png"/>
 <img id="11-2" style="position: absolute; left: 200px; top: 83px; width:70px;height:190px;transform: scaleY(-1);visibility: hidden;" title="whirling Hygrometer" src="Images/t1.png"/>
-<img id="22-1" style="position: absolute; left: 260px;top: 220px; width:80px;"title="Hand" src="Images/2.1.png"/>
 <img id="11-2a" style="position: absolute; left: 120px; top: 258px; width:150px;height:120px;visibility: hidden;" title="whirling Hygrometer" src="Images/2.22.png"/>
 <img id="11-2b" style="position: absolute; left: 110px; top: 152px; width:160px;height:120px;visibility: hidden;" title="whirling Hygrometer" src="Images/21.png"/>
+<img id="22-1" style="position: absolute; left: 260px;top: 220px; width:80px;"title="Hand" src="Images/2.1.png"/>
+
 <img id="11-3" style="position: absolute; left: 500px; top: 155px; width:150px; height:150px;" title="Stop Watch" src="Images/swh.jpg"/>
 <img id="11-4" style="position: absolute; left: 574px; top: 199px;transform-origin: 70% 94%;" title="" src="Images/ndswh.png"/>
 <p id="can12" style="position:absolute;top: 300px; left:535px; font-family:verdana; font-size:14px;">Time=_____s</p>
 <span class="tooltip" style="font-family:verdana; font-size:18px;border-bottom:1px dotted ; color:red; position:absolute;">
 <span id="10" class="tooltiptext" style="font-family:verdana; font-size:14px;color:white;width:300px;left:-220px;top:40px;visibility:hidden;text-align: justify;">Note:</br></br>1.Keep the instrument away from the body while rotation before whirling.</br></br>
-<input id="ok" type="button" name="ok" value="ok" />&nbsp;&nbsp;&nbsp;</span>
+<input id="ok" type="button" name="ok" value="OK" />&nbsp;&nbsp;&nbsp;</span>
 </span>
 </div>
 
@@ -155,7 +156,7 @@ var temp=0;
 
 <label>Saturated vapour pressure at wet bulb temperature (e<sub>sw</sub>)=</label>
 <div class="input" >
-<input id="output" type="number" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output" type="text" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:420px;top:-60px;">e<sub>sw</sub>=610.6*exp(17.27T<sub>w</sub>/237.3+T<sub>w</sub>)</span>
 <label  style="position:absolute;left:480px;top:-20px;">Pa</label>
 
@@ -168,96 +169,96 @@ var temp=0;
 
 <label>Moisture content of unsaturated air(X<sub>s</sub>)=</label>
 <div class="input" >
-<input id="output-1" type="number" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-1" type="text" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:300px;top:-60px;">X<sub>s</sub>=0.622*e<sub>sw</sub>/P-e<sub>sw</sub></span>
 <label style="position:absolute;left:360px;top:-20px;">Kg/Kg</label>
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button-1" style="position:absolute;left:525px;visibility: hidden;">Check</button>
-<p id="right-1" style="position:absolute; left:405px; top:205px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong-1" style="position:absolute; left:405px; top:205px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right-1" style="position:absolute; left:405px; top:210px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong-1" style="position:absolute; left:405px; top:210px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 </br></br>
 
 <label>Latent heat of evaporation(L<sub>w</sub>)=</label>
 <div class="input">
-<input id="output-2" type="number" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-2" type="text" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:230px;top:-60px;">L<sub>w</sub>=(2502.5-2.386T<sub>w</sub>)*1000</span>
 <label style="position:absolute;left:290px;top:-20px;" >J/Kg</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button-2" style="position:absolute;left:525px;visibility:hidden;">Check</button>
-<p id="right-2" style="position:absolute; left:325px; top:240px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong-2" style="position:absolute; left:325px; top:240px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right-2" style="position:absolute; left:325px; top:245px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong-2" style="position:absolute; left:325px; top:245px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
 <label>Sigma heat(S)=</label>
 <div class="input">
-<input id="output-3" type="number" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-3" type="text" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:120px;top:-60px;">S=(L<sub>w</sub>*X<sub>s</sub>+1005T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:180px;top:-20px;" >J/Kg</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button-3" style="position:absolute;left:525px;visibility:hidden;" >Check</button>
-<p id="right-3" style="position:absolute; left:210px; top:275px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong-3" style="position:absolute; left:210px; top:275px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right-3" style="position:absolute; left:210px; top:280px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong-3" style="position:absolute; left:210px; top:280px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
 <label>Moisture content of saturated air(X)=</label>
 <div class="input">
-<input id="output-4" type="number" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-4" type="text" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:270px;top:-60px;">X=S-1005T<sub>d</sub>/L<sub>w</sub>+1884(T<sub>d</sub>-T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:330px;top:-20px;" >Kg/Kg</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button-4" style="position:absolute;left:525px;visibility: hidden;" >Check</button>
-<p id="right-4" style="position:absolute; left:365px; top:310px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong-4" style="position:absolute; left:375px; top:310px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right-4" style="position:absolute; left:365px; top:315px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong-4" style="position:absolute; left:375px; top:315px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
 <label>Actual vapour pressure(e)=</label>
 <div class="input">
-<input id="output-5" type="number" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-5" type="text" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:200px;top:-60px;">e=P*X /(0.622+X)</span>
 <label style="position:absolute;left:260px;top:-20px;" >Pa</label>
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button-5" style="position:absolute;left:525px;visibility: hidden;">Check</button>
-<p id="right-5" style="position:absolute; left:280px; top:343px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong-5" style="position:absolute; left:280px; top:343px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right-5" style="position:absolute; left:280px; top:348px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong-5" style="position:absolute; left:280px; top:348px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 </br></br>
 
 <label>Saturated vapour pressure at any bulb temperature(e<sub>sd</sub>)=</label>
 <div class="input">
-<input id="output-6" type="number" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-6" type="text" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:410px;top:-60px;">e<sub>sd</sub>=610.6*exp(17.27T<sub>d</sub>/237.3T<sub>d</sub>)</span>
 <label style="position:absolute;left:470px;top:-20px;">Pa</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button-6" style="position:absolute;left:525px;visibility:hidden;">Check</button>
-<p id="right-6" style="position:absolute; left:490px; top:380px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong-6" style="position:absolute; left:490px; top:380px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right-6" style="position:absolute; left:490px; top:385px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong-6" style="position:absolute; left:490px; top:385px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
 
 <label style="font-size:14px;" >Relative humidity =</label>
 <div class="input">
-<input id="output-7" type="number" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-7" type="text" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:150px;top:-60px;">RH=e/e<sub>sd</sub>*100</span>
 </div>
 
 <label style="position:absolute;left:200px;">&#37;</label>
 
 <button id="button-7" style="position:absolute;left:525px;visibility:hidden;">Check</button>
-<p id="right-7" style="position:absolute; left:210px; top:415px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong-7" style="position:absolute; left:210px; top:415px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right-7" style="position:absolute; left:210px; top:425px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong-7" style="position:absolute; left:210px; top:425px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </div>
 
@@ -266,7 +267,7 @@ var temp=0;
 <strong id="titlestep" class="incanvas">STEP </strong>
 <span class="circlebg" id="stepnumber">&nbsp;5&nbsp;</span>
 <p id="pumptext" class="steptext" style="font-family:verdana; font-size:14px;">Wet the muslin cloth present at the nose of wet bulb thermometer.</p>
-<marquee direction="right"width="700"id="cc" style="position:absolute;top: 40px; left:10px; font-family:verdana; font-size:18px;visibility: hidden;"><label style="color:red;font-size:14px;">Place 2:In the middle of the gallery.</label> </marquee>
+<marquee direction="right"width="700" id="cc" style="position:absolute;top: 40px; left:10px; font-family:verdana; font-size:18px;visibility: hidden;"><label style="color:red;font-size:14px;">Place 2:In the middle of the gallery.</label> </marquee>
 
 <img id="1-1" style="position: absolute; left: 420px; top: 300px; width:50px;visibility: hidden;" title="" src="Images/s1.png"/>
 
@@ -281,7 +282,7 @@ var temp=0;
 
 <span class="tooltip" style="font-family:verdana; font-size:18px;border-bottom:1px dotted ; color:red; position:absolute;">
 <span id="10-1" class="tooltiptext" style="font-family:verdana; font-size:14px;color:white;width:180px;left:-530px;top:60px;visibility:hidden;text-align: justify;">Note:</br></br>1.Wait atleast for 2 minutes before starting the next observation of the instrument.</br></br>
-<input id="ok-1" type="button" name="ok" value="Ok" />&nbsp;&nbsp;&nbsp;</span>
+<input id="ok-1" type="button" name="ok" value="OK" />&nbsp;&nbsp;&nbsp;</span>
 </span>
 </div>
 <!--Trial text	-->
@@ -297,9 +298,10 @@ var temp=0;
 
 <img id="111-1" style="position: absolute; left: 200px; top: 255px; width:70px;height:190px;" title="Whirling Hygrometer" src="Images/t1.png"/>
 <img id="111-2" style="position: absolute; left: 200px; top: 83px; width:70px;height:190px;transform: scaleY(-1);visibility: hidden;" title="Whirling Hygrometer" src="Images/t1.png"/>
-<img id="222-1" style="position: absolute; left: 260px;top: 220px; width:80px;" title="Hand" src="Images/2.1.png"/>
 <img id="111-2a" style="position: absolute; left: 120px; top: 258px; width:150px;height:120px;visibility:hidden;" title="Whirling Hygrometer" src="Images/2.22.png"/>
 <img id="111-2b" style="position: absolute; left: 110px; top: 152px; width:160px;height:120px;visibility:hidden;" title="Whirling Hygrometer" src="Images/21.png"/>
+<img id="222-1" style="position: absolute; left: 260px;top: 220px; width:80px;" title="Hand" src="Images/2.1.png"/>
+
 <img id="111-3" style="position: absolute; left: 500px; top: 155px; width:150px; height:150px;" title="Stop Watch" src="Images/swh.jpg"/>
 <img id="111-4" style="position: absolute; left: 574px; top: 199px;transform-origin: 70% 94%;" title="" src="Images/ndswh.png"/>
 
@@ -324,7 +326,7 @@ var temp=0;
 
 <span class="tooltip" style="font-family:verdana; font-size:18px;border-bottom:1px dotted ; color:red; position:absolute;">
 <span id="101-1" class="tooltiptext" style="font-family:verdana; font-size:14px;color:white;width:150px;left:-520px;top:40px;visibility:hidden;text-align: justify;">Note:</br></br>1.Wait atleast for 2 minutes before starting the next observation of the instrument.</br></br>
-<input id="ok-111" type="button" name="ok" value="ok" />&nbsp;&nbsp;&nbsp;</span>
+<input id="ok-111" type="button" name="ok" value="OK" />&nbsp;&nbsp;&nbsp;</span>
 </span>
 <p id="can1-1" style="position:absolute;top: 450px; left:40px; font-family:verdana; font-size:14px;">Wet bulb temperature=______ &#8451;</p>
 <p id="can2-1" style="position:absolute;top: 480px; left:40px; font-family:verdana; font-size:14px;">Dry bulb temperature=______ &#8451;</p>
@@ -354,7 +356,7 @@ var temp=0;
 
 <label>Saturated vapour pressure at wet bulb temperature (e<sub>sw</sub>)=</label>
 <div class="input" >
-<input id="output1" type="number" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1" type="text" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:420px;top:-60px;">e<sub>sw</sub>=610.6*exp(17.27T<sub>w</sub>/237.3+T<sub>w</sub>)</span>
 <label  style="position:absolute;left:480px;top:-20px;">Pa</label>
 
@@ -369,28 +371,28 @@ var temp=0;
 
 <label>Moisture content of unsaturated air(X<sub>s</sub>)=</label>
 <div class="input" >
-<input id="output1-1" type="number" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-1" type="text" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:300px;top:-60px;">X<sub>s</sub>=0.622*e<sub>sw</sub>/P-e<sub>sw</sub></span>
 <label style="position:absolute;left:360px;top:-20px;">Kg/Kg</label>
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button1-1" style="position:absolute;left:525px;visibility: hidden;">Check</button>
-<p id="right1-1" style="position:absolute; left:410px; top:205px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong1-1" style="position:absolute; left:410px; top:205px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right1-1" style="position:absolute; left:412px; top:210px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong1-1" style="position:absolute; left:412px; top:210px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 </br></br>
 
 
 <label>Latent heat of evaporation(L<sub>w</sub>)=</label>
 <div class="input">
-<input id="output1-2" type="number" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-2" type="text" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:230px;top:-60px;">L<sub>w</sub>=(2502.5-2.386T<sub>w</sub>)*1000</span>
 <label style="position:absolute;left:290px;top:-20px;" >J/Kg</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button1-2" style="position:absolute;left:525px;visibility:hidden;">Check</button>
-<p id="right1-2" style="position:absolute; left:325px; top:240px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong1-2" style="position:absolute; left:325px; top:240px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right1-2" style="position:absolute; left:325px; top:245px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong1-2" style="position:absolute; left:325px; top:245px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
@@ -399,58 +401,58 @@ var temp=0;
 
 <label>Sigma heat(S)=</label>
 <div class="input">
-<input id="output1-3" type="number" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-3" type="text" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:120px;top:-60px;">S=(L<sub>w</sub>*X<sub>s</sub>+1005T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:180px;top:-20px;" >J/Kg</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button1-3" style="position:absolute;left:525px;visibility:hidden;" >Check</button>
-<p id="right1-3" style="position:absolute; left:210px; top:275px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong1-3" style="position:absolute; left:210px; top:275px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right1-3" style="position:absolute; left:210px; top:280px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong1-3" style="position:absolute; left:210px; top:280px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
 
 <label>Moisture content of saturated air(X)=</label>
 <div class="input">
-<input id="output1-4" type="number" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-4" type="text" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:270px;top:-60px;">X=S-1005T<sub>d</sub>/L<sub>w</sub>+1884(T<sub>d</sub>-T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:330px;top:-20px;" >Kg/Kg</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button1-4" style="position:absolute;left:525px;visibility: hidden;" >Check</button>
-<p id="right1-4" style="position:absolute; left:365px; top:310px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong1-4" style="position:absolute; left:375px; top:310px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right1-4" style="position:absolute; left:365px; top:315px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong1-4" style="position:absolute; left:375px; top:315px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
 
 <label>Actual vapour pressure(e)=</label>
 <div class="input">
-<input id="output1-5" type="number" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-5" type="text" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:200px;top:-60px;">e=P*X /(0.622+X)</span>
 <label style="position:absolute;left:260px;top:-20px;" >Pa</label>
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button1-5" style="position:absolute;left:525px;visibility: hidden;">Check</button>
-<p id="right1-5" style="position:absolute; left:280px; top:343px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong1-5" style="position:absolute; left:280px; top:343px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right1-5" style="position:absolute; left:280px; top:348px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong1-5" style="position:absolute; left:280px; top:348px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 </br></br>
 
 
 <label>Saturated vapour pressure at any bulb temperature(e<sub>sd</sub>)=</label>
 <div class="input">
-<input id="output1-6" type="number" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-6" type="text" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:410px;top:-60px;">e<sub>sd</sub>=610.6*exp(17.27T<sub>d</sub>/237.3T<sub>d</sub>)</span>
 <label style="position:absolute;left:470px;top:-20px;">Pa</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button1-6" style="position:absolute;left:525px;visibility:hidden;">Check</button>
-<p id="right1-6" style="position:absolute; left:490px; top:380px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong1-6" style="position:absolute; left:490px; top:380px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right1-6" style="position:absolute; left:490px; top:385px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong1-6" style="position:absolute; left:490px; top:385px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
@@ -458,13 +460,13 @@ var temp=0;
 
 <label style="font-size:14px;" >Relative humidity =</label>
 <div class="input">
-<input id="output1-7" type="number" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-7" type="text" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:150px;top:-60px;">RH=e/e<sub>sd</sub>*100</span>
 </div>
 <label style="position:absolute;left:200px;">&#37;</label>
 <button id="button1-7" style="position:absolute;left:525px;visibility:hidden;">Check</button>
-<p id="right1-7" style="position:absolute; left:210px; top:415px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong1-7" style="position:absolute; left:210px; top:415px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right1-7" style="position:absolute; left:210px; top:425px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong1-7" style="position:absolute; left:210px; top:425px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </div>
 </div>
@@ -483,11 +485,20 @@ var temp=0;
 <div id="drop-3" style="position:absolute; left:450px; top:300px; width:8px; height:8.5px; border-radius:50%; border-top-right-radius:0; transform:rotate(-45deg);  background-color:lightskyblue; visibility:hidden;"></div>
 <img id="2222" style="position: absolute; left: 130px; top: 170px;width:220px;transform: rotate(30deg) ;"title="Distilled Water" src="Images/bottle2.png"/>
 <img id="22-03" style="position: absolute; left: 195px; top: 170px;width:220px;transform: rotate(30deg) ;visibility:hidden;"title="Distilled Water" src="Images/bottle1.png"/>
+
+<!-- <span class="tooltip" style="font-family:verdana; font-size:18px;border-bottom:1px dotted ; color:red; position:absolute;"> -->
+
 <span class="tooltip" style="font-family:verdana; font-size:18px;border-bottom:1px dotted ; color:red; position:absolute;">
 <span id="101-1p" class="tooltiptext" style="font-family:verdana; font-size:14px;color:white;width:180px;left:-520px;top:60px;visibility:hidden;text-align: justify;">Note:</br></br>1.Wait atleast for 2 minutes before starting the next observation of the instrument.</br></br>
-<input id="ok-11p" type="button" name="ok" value="ok" />&nbsp;&nbsp;&nbsp;</span>
+<input id="ok-11p" type="button" name="ok" value="OK" />&nbsp;&nbsp;&nbsp;</span>
 </span>
+
 </div>
+<!--Trial text	-->
+<div id="">
+<p id="trial" style="text-transform: uppercase;visibility :hidden;font-weight: bold;font-family:verdana; "><strong>Trial =1 </strong></p>
+</div>
+
 
 <div class="simsubscreen" id="canvas10" style="visibility:hidden">
 <strong id="titlestep" class="incanvas">STEP </strong>
@@ -498,14 +509,14 @@ var temp=0;
 <img id="111-2p" style="position: absolute; left: 200px; top: 83px; width:70px;height:190px;transform: scaleY(-1);visibility: hidden;" title="Whirling Hygrometer" src="Images/t1.png"/>
 <img id="111-20p" style="position: absolute; left: 120px; top: 258px; width:150px;height:120px;visibility:hidden;" title="Whirling Hygrometer" src="Images/2.22.png"/>
 <img id="111-20q" style="position: absolute; left: 110px; top: 152px; width:160px;height:120px;visibility:hidden;" title="Whirling Hygrometer" src="Images/21.png"/>
-<img id="222-1p" style="position: absolute; left: 260px;top: 220px; width:80px;" src="Images/2.1.png"/>
 <img id="111-3p" style="position: absolute; left: 500px; top: 155px; width:150px; height:150px;" title="Stop Watch" src="Images/swh.jpg"/>
 <img id="111-4p" style="position: absolute; left: 574px; top: 199px;transform-origin: 70% 94%;" title="" src="Images/ndswh.png"/>
+<img id="222-1p" style="position: absolute; left: 260px;top: 220px; width:80px;" src="Images/2.1.png"/>
 
 <p id="can12-1p" style="position:absolute;top: 300px; left:535px; font-family:verdana; font-size:14px;">Time=_____s</p>
 
 <!-- <span class="tooltip" style="font-family:verdana; font-size:18px;border-bottom:1px dotted ; color:red; position:absolute;">
-<span id="100-1p" class="tooltiptext" style="font-family:verdana; font-size:14px;color:white;width:230px;left:-150px;top:40px;visibility:hidden;">Note:</br></br>1.Keep the instrument away from the body while rotation before whirling.</br></br>
+<span id="100-1p" class="tooltiptext" style="font-family:verdana; font-size:14px;color:white;width:500px;left:-520px;top:40px;visibility:hidden;">Note:</br></br>1.Keep the instrument away from the body while rotation before whirling.</br></br>
 <input id="ok-1p" type="button" name="ok" value="ok" />&nbsp;&nbsp;&nbsp;</span>
 </span> -->
 </div>
@@ -560,7 +571,7 @@ var temp=0;
 
 <label>Saturated vapour pressure at wet bulb temperature (e<sub>sw</sub>)=</label>
 <div class="input" >
-<input id="output11" type="number" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11" type="text" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:420px;top:-60px;">e<sub>sw</sub>=610.6*exp(17.27T<sub>w</sub>/237.3+T<sub>w</sub>)</span>
 <label  style="position:absolute;left:480px;top:-20px;">Pa</label>
 
@@ -574,85 +585,85 @@ var temp=0;
 
 <label>Moisture content of unsaturated air(X<sub>s</sub>)=</label>
 <div class="input" >
-<input id="output11-1" type="number" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-1" type="text" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:300px;top:-60px;">X<sub>s</sub>=0.622*e<sub>sw</sub>/P-e<sub>sw</sub></span>
 <label style="position:absolute;left:360px;top:-20px;">Kg/Kg</label>
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button11-1" style="position:absolute;left:525px;visibility: hidden;">Check</button>
-<p id="right11-1" style="position:absolute; left:405px; top:205px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong11-1" style="position:absolute; left:405px; top:205px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right11-1" style="position:absolute; left:405px; top:210px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong11-1" style="position:absolute; left:405px; top:210px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 </br></br>
 
 
 <label>Latent heat of evaporation(L<sub>w</sub>)=</label>
 <div class="input">
-<input id="output11-2" type="number" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-2" type="text" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:230px;top:-60px;">L<sub>w</sub>=(2502.5-2.386T<sub>w</sub>)*1000</span>
 <label style="position:absolute;left:290px;top:-20px;" >J/Kg</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button11-2" style="position:absolute;left:525px;visibility:hidden;">Check</button>
-<p id="right11-2" style="position:absolute; left:325px; top:240px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong11-2" style="position:absolute; left:325px; top:240px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right11-2" style="position:absolute; left:325px; top:245px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong11-2" style="position:absolute; left:325px; top:245px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
 <label>Sigma heat(S)=</label>
 <div class="input">
-<input id="output11-3" type="number" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-3" type="text" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:120px;top:-60px;">S=(L<sub>w</sub>*X<sub>s</sub>+1005T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:180px;top:-20px;" >J/Kg</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button11-3" style="position:absolute;left:525px;visibility:hidden;" >Check</button>
-<p id="right11-3" style="position:absolute; left:210px; top:275px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong11-3" style="position:absolute; left:210px; top:275px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right11-3" style="position:absolute; left:210px; top:280px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong11-3" style="position:absolute; left:210px; top:280px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
 
 <label>Moisture content of saturated air(X)=</label>
 <div class="input">
-<input id="output11-4" type="number" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-4" type="text" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:270px;top:-60px;">X=S-1005T<sub>d</sub>/L<sub>w</sub>+1884(T<sub>d</sub>-T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:330px;top:-20px;" >Kg/Kg</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button11-4" style="position:absolute;left:525px;visibility: hidden;" >Check</button>
-<p id="right11-4" style="position:absolute; left:365px; top:310px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong11-4" style="position:absolute; left:375px; top:310px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right11-4" style="position:absolute; left:365px; top:315px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong11-4" style="position:absolute; left:375px; top:315px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
 
 <label>Actual vapour pressure(e)=</label>
 <div class="input">
-<input id="output11-5" type="number" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-5" type="text" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:200px;top:-60px;">e=P*X /(0.622+X)</span>
 <label style="position:absolute;left:260px;top:-20px;" >Pa</label>
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button11-5" style="position:absolute;left:525px;visibility: hidden;">Check</button>
-<p id="right11-5" style="position:absolute; left:280px; top:343px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong11-5" style="position:absolute; left:280px; top:343px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right11-5" style="position:absolute; left:280px; top:348px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong11-5" style="position:absolute; left:280px; top:348px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 </br></br>
 
 
 <label>Saturated vapour pressure at any bulb temperature(e<sub>sd</sub>)=</label>
 <div class="input">
-<input id="output11-6" type="number" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-6" type="text" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:410px;top:-60px;">e<sub>sd</sub>=610.6*exp(17.27T<sub>d</sub>/237.3T<sub>d</sub>)</span>
 <label style="position:absolute;left:470px;top:-20px;">Pa</label>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <button id="button11-6" style="position:absolute;left:525px;visibility:hidden;">Check</button>
-<p id="right11-6" style="position:absolute; left:490px; top:380px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong11-6" style="position:absolute; left:490px; top:380px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right11-6" style="position:absolute; left:490px; top:385px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong11-6" style="position:absolute; left:490px; top:385px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </br></br>
 
@@ -660,14 +671,14 @@ var temp=0;
 
 <label style="font-size:14px;" >Relative humidity =</label>
 <div class="input">
-<input id="output11-7" type="number" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-7" type="text" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:150px;top:-60px;">RH=e/e<sub>sd</sub>*100</span>
 </div>
 <label style="position:absolute;left:200px;">&#37;</label>
 
 <button id="button11-7" style="position:absolute;left:525px;visibility:hidden;">Check</button>
-<p id="right11-7" style="position:absolute; left:210px; top:415px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
-<p id="wrong11-7" style="position:absolute; left:210px; top:415px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
+<p id="right11-7" style="position:absolute; left:210px; top:425px; color:#32CD32;  visibility:hidden; font-size:22px;" >&#10004;</p>
+<p id="wrong11-7" style="position:absolute; left:210px; top:425px; color:red;  visibility:hidden; font-size:22px;" >&#10008;</p>
 
 </div>
 </div>
@@ -679,14 +690,15 @@ var temp=0;
 
 <div class="simsubscreen" id="canvas">
 
-<div style="max-height: 360px; max-width: 630px; overflow-x: auto; overflow-y: auto;">
-<img id="final" src="Images/chart.jpg" width="600px" style="margin-top: 2em;border-radius: 10px;">
-</div>
-<br>
-<div class="slidecontainer" id="magcontainer" style="width:150px; margin:auto;">
-<input type="range" min="1" max="100" value="1" class="slider" id="mag">
-</div>
-</div>
+								 <div style="max-height: 360px; max-width: 630px; overflow-x: auto; overflow-y: auto;">
+									 <img id="final" src="Images/chart.jpg" width="600px" style="margin-top: 2em;border-radius: 10px;">
+								 </div>
+
+							 <br>
+							 <div class="slidecontainer" id="magcontainer" style="width:150px; margin:auto;">
+									 <input type="range" min="1" max="100" value="1" class="slider" id="mag">
+							 </div>
+					 </div>
 <p id="can-42" style="position:absolute;top: 460px; left:20px; font-family:verdana; font-size:14px;">Relative humidity in Place1=______ &#37;, Place2=_______&#37;, Place3=_______&#37;.</p>
 
 </div>

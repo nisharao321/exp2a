@@ -1335,7 +1335,7 @@ function magic()
     {
       myStopFunction();
       document.getElementById('22-1').onclick="";
-      document.getElementById("11-4").style.animation = "rotate 10s forwards";
+      document.getElementById("11-4").style.animation = "rotate 8.2s linear forwards";
       setTimeout(function()
       {
         document.getElementById('11-1').style.visibility="hidden";
@@ -1415,7 +1415,7 @@ function magic()
       myStopFunction();
       document.getElementById('222-1').onclick="";
 
-      document.getElementById("111-4").style.animation = "rotate 10s forwards";
+      document.getElementById("111-4").style.animation = "rotate 8.2s linear forwards";
 
       setTimeout(function()
       {
@@ -1504,7 +1504,7 @@ function magic()
     {
       myStopFunction();
       document.getElementById('222-1p').onclick="";
-      document.getElementById("111-4p").style.animation = "rotate 10s forwards";
+      document.getElementById("111-4p").style.animation = "rotate 8.2s linear forwards";
       setTimeout(function()
       {
         document.getElementById('111-1p').style.visibility="hidden";

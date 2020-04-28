@@ -98,7 +98,7 @@ visibility: visible;
 
  /* Position the tooltip */
  position: absolute;
- left:100px;
+ left:200px;
  top:20px;
  z-index: 100;
 }
@@ -189,19 +189,6 @@ visibility: visible;
 				 background: #4CAF50;
 				 cursor: pointer;}
 
-
-
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
 
 
 @keyframes moveb {
