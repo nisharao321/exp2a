@@ -1,6 +1,6 @@
 ##### These procedure steps will be followed on the simulator
 
-1. When you click on a Relative Humidity of Whirling Hygrometer file, a new window will open as shown below. . Click on the NEXT button at the bottom right corner to proceed to the next step.<br>
+1. When you click on a Relative Humidity of Whirling Hygrometer file, a new window will open as shown below. Click on the NEXT button at the bottom right corner to proceed to the next step.<br>
 <img src="images/w1.jpeg"><br>
 
 2. Click on the Flask to wet the muslin cloth of wet bulb thermometer. Click on the NEXT button at the bottom right corner to proceed to the next step. <br>
