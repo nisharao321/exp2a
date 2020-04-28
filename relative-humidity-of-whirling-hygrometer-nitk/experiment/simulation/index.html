@@ -156,7 +156,7 @@ var temp=0;
 
 <label>Saturated vapour pressure at wet bulb temperature (e<sub>sw</sub>)=</label>
 <div class="input" >
-<input id="output" type="text" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output" type="number" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:420px;top:-60px;">e<sub>sw</sub>=610.6*exp(17.27T<sub>w</sub>/237.3+T<sub>w</sub>)</span>
 <label  style="position:absolute;left:480px;top:-20px;">Pa</label>
 
@@ -169,7 +169,7 @@ var temp=0;
 
 <label>Moisture content of unsaturated air(X<sub>s</sub>)=</label>
 <div class="input" >
-<input id="output-1" type="text" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-1" type="number" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:300px;top:-60px;">X<sub>s</sub>=0.622*e<sub>sw</sub>/P-e<sub>sw</sub></span>
 <label style="position:absolute;left:360px;top:-20px;">Kg/Kg</label>
 </div>
@@ -182,7 +182,7 @@ var temp=0;
 
 <label>Latent heat of evaporation(L<sub>w</sub>)=</label>
 <div class="input">
-<input id="output-2" type="text" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-2" type="number" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:230px;top:-60px;">L<sub>w</sub>=(2502.5-2.386T<sub>w</sub>)*1000</span>
 <label style="position:absolute;left:290px;top:-20px;" >J/Kg</label>
 </div>
@@ -195,7 +195,7 @@ var temp=0;
 
 <label>Sigma heat(S)=</label>
 <div class="input">
-<input id="output-3" type="text" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-3" type="number" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:120px;top:-60px;">S=(L<sub>w</sub>*X<sub>s</sub>+1005T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:180px;top:-20px;" >J/Kg</label>
@@ -209,7 +209,7 @@ var temp=0;
 
 <label>Moisture content of saturated air(X)=</label>
 <div class="input">
-<input id="output-4" type="text" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-4" type="number" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:270px;top:-60px;">X=S-1005T<sub>d</sub>/L<sub>w</sub>+1884(T<sub>d</sub>-T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:330px;top:-20px;" >Kg/Kg</label>
@@ -223,7 +223,7 @@ var temp=0;
 
 <label>Actual vapour pressure(e)=</label>
 <div class="input">
-<input id="output-5" type="text" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-5" type="number" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:200px;top:-60px;">e=P*X /(0.622+X)</span>
 <label style="position:absolute;left:260px;top:-20px;" >Pa</label>
 </div>
@@ -236,7 +236,7 @@ var temp=0;
 
 <label>Saturated vapour pressure at any bulb temperature(e<sub>sd</sub>)=</label>
 <div class="input">
-<input id="output-6" type="text" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-6" type="number" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:410px;top:-60px;">e<sub>sd</sub>=610.6*exp(17.27T<sub>d</sub>/237.3T<sub>d</sub>)</span>
 <label style="position:absolute;left:470px;top:-20px;">Pa</label>
 </div>
@@ -250,7 +250,7 @@ var temp=0;
 
 <label style="font-size:14px;" >Relative humidity =</label>
 <div class="input">
-<input id="output-7" type="text" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output-7" type="number" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:150px;top:-60px;">RH=e/e<sub>sd</sub>*100</span>
 </div>
 
@@ -356,7 +356,7 @@ var temp=0;
 
 <label>Saturated vapour pressure at wet bulb temperature (e<sub>sw</sub>)=</label>
 <div class="input" >
-<input id="output1" type="text" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1" type="number" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:420px;top:-60px;">e<sub>sw</sub>=610.6*exp(17.27T<sub>w</sub>/237.3+T<sub>w</sub>)</span>
 <label  style="position:absolute;left:480px;top:-20px;">Pa</label>
 
@@ -371,7 +371,7 @@ var temp=0;
 
 <label>Moisture content of unsaturated air(X<sub>s</sub>)=</label>
 <div class="input" >
-<input id="output1-1" type="text" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-1" type="number" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:300px;top:-60px;">X<sub>s</sub>=0.622*e<sub>sw</sub>/P-e<sub>sw</sub></span>
 <label style="position:absolute;left:360px;top:-20px;">Kg/Kg</label>
 </div>
@@ -385,7 +385,7 @@ var temp=0;
 
 <label>Latent heat of evaporation(L<sub>w</sub>)=</label>
 <div class="input">
-<input id="output1-2" type="text" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-2" type="number" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:230px;top:-60px;">L<sub>w</sub>=(2502.5-2.386T<sub>w</sub>)*1000</span>
 <label style="position:absolute;left:290px;top:-20px;" >J/Kg</label>
 </div>
@@ -401,7 +401,7 @@ var temp=0;
 
 <label>Sigma heat(S)=</label>
 <div class="input">
-<input id="output1-3" type="text" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-3" type="number" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:120px;top:-60px;">S=(L<sub>w</sub>*X<sub>s</sub>+1005T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:180px;top:-20px;" >J/Kg</label>
@@ -416,7 +416,7 @@ var temp=0;
 
 <label>Moisture content of saturated air(X)=</label>
 <div class="input">
-<input id="output1-4" type="text" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-4" type="number" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:270px;top:-60px;">X=S-1005T<sub>d</sub>/L<sub>w</sub>+1884(T<sub>d</sub>-T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:330px;top:-20px;" >Kg/Kg</label>
@@ -431,7 +431,7 @@ var temp=0;
 
 <label>Actual vapour pressure(e)=</label>
 <div class="input">
-<input id="output1-5" type="text" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-5" type="number" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:200px;top:-60px;">e=P*X /(0.622+X)</span>
 <label style="position:absolute;left:260px;top:-20px;" >Pa</label>
 </div>
@@ -445,7 +445,7 @@ var temp=0;
 
 <label>Saturated vapour pressure at any bulb temperature(e<sub>sd</sub>)=</label>
 <div class="input">
-<input id="output1-6" type="text" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-6" type="number" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:410px;top:-60px;">e<sub>sd</sub>=610.6*exp(17.27T<sub>d</sub>/237.3T<sub>d</sub>)</span>
 <label style="position:absolute;left:470px;top:-20px;">Pa</label>
 </div>
@@ -460,7 +460,7 @@ var temp=0;
 
 <label style="font-size:14px;" >Relative humidity =</label>
 <div class="input">
-<input id="output1-7" type="text" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output1-7" type="number" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:150px;top:-60px;">RH=e/e<sub>sd</sub>*100</span>
 </div>
 <label style="position:absolute;left:200px;">&#37;</label>
@@ -571,7 +571,7 @@ var temp=0;
 
 <label>Saturated vapour pressure at wet bulb temperature (e<sub>sw</sub>)=</label>
 <div class="input" >
-<input id="output11" type="text" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11" type="number" style="position:absolute;left:420px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:420px;top:-60px;">e<sub>sw</sub>=610.6*exp(17.27T<sub>w</sub>/237.3+T<sub>w</sub>)</span>
 <label  style="position:absolute;left:480px;top:-20px;">Pa</label>
 
@@ -585,7 +585,7 @@ var temp=0;
 
 <label>Moisture content of unsaturated air(X<sub>s</sub>)=</label>
 <div class="input" >
-<input id="output11-1" type="text" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-1" type="number" style=" position:absolute;left:300px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:300px;top:-60px;">X<sub>s</sub>=0.622*e<sub>sw</sub>/P-e<sub>sw</sub></span>
 <label style="position:absolute;left:360px;top:-20px;">Kg/Kg</label>
 </div>
@@ -599,7 +599,7 @@ var temp=0;
 
 <label>Latent heat of evaporation(L<sub>w</sub>)=</label>
 <div class="input">
-<input id="output11-2" type="text" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-2" type="number" style="position:absolute;left:230px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:230px;top:-60px;">L<sub>w</sub>=(2502.5-2.386T<sub>w</sub>)*1000</span>
 <label style="position:absolute;left:290px;top:-20px;" >J/Kg</label>
 </div>
@@ -612,7 +612,7 @@ var temp=0;
 
 <label>Sigma heat(S)=</label>
 <div class="input">
-<input id="output11-3" type="text" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-3" type="number" style="position:absolute;left:120px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:120px;top:-60px;">S=(L<sub>w</sub>*X<sub>s</sub>+1005T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:180px;top:-20px;" >J/Kg</label>
@@ -627,7 +627,7 @@ var temp=0;
 
 <label>Moisture content of saturated air(X)=</label>
 <div class="input">
-<input id="output11-4" type="text" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-4" type="number" style=" position:absolute;left:270px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:270px;top:-60px;">X=S-1005T<sub>d</sub>/L<sub>w</sub>+1884(T<sub>d</sub>-T<sub>w</sub>)</span>
 
 <label style="position:absolute;left:330px;top:-20px;" >Kg/Kg</label>
@@ -642,7 +642,7 @@ var temp=0;
 
 <label>Actual vapour pressure(e)=</label>
 <div class="input">
-<input id="output11-5" type="text" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-5" type="number" style=" position:absolute;left:200px;top:-20px;border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:relative;left:200px;top:-60px;">e=P*X /(0.622+X)</span>
 <label style="position:absolute;left:260px;top:-20px;" >Pa</label>
 </div>
@@ -656,7 +656,7 @@ var temp=0;
 
 <label>Saturated vapour pressure at any bulb temperature(e<sub>sd</sub>)=</label>
 <div class="input">
-<input id="output11-6" type="text" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-6" type="number" style="position:absolute;left:410px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:410px;top:-60px;">e<sub>sd</sub>=610.6*exp(17.27T<sub>d</sub>/237.3T<sub>d</sub>)</span>
 <label style="position:absolute;left:470px;top:-20px;">Pa</label>
 </div>
@@ -671,7 +671,7 @@ var temp=0;
 
 <label style="font-size:14px;" >Relative humidity =</label>
 <div class="input">
-<input id="output11-7" type="text" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
+<input id="output11-7" type="number" style="position:absolute;left:150px;top:-20px; border:none; border-bottom: 1px solid; width:55px;" required >
 <span class="tooltip1" style="position:absolute;left:150px;top:-60px;">RH=e/e<sub>sd</sub>*100</span>
 </div>
 <label style="position:absolute;left:200px;">&#37;</label>
