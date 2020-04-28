@@ -5,10 +5,10 @@
 <b>Discipline | <b>Engineering
 :--|:--|
 <b> Lab | <b>  Mining Environmental Engineering Lab
-<b> Experiment|     <b> 2a. Relative Humidity of Whirling Hygrometer.
+<b> Experiment|     <b> 2a. Relative Humidity of Whirling Hygrometer
 
 <h5> About the Experiment : </h5>
-Determination of  relative humidity of a given location using whirling hygrometer and compare the result obtained using psychrometric chart.  
+Determination of  relative humidity of a given location using whirling hygrometer and compare the result obtained using psychrometric chart  
 
 <b>Name of Developer | <b> Dr. Pruthviraj U
 :--|:--|
